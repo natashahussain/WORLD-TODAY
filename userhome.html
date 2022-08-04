@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="usercss/style.css">
+</head>
+ 
+  <body>
+ </div><body style="background-color:rgb(230,230,250)">
+<table cellpadding=5 align=center cellspacing=10>             
+<section class="h-100 bg-dark">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-registration my-4">
+          <div class="row g-0">
+            <div class="col-xl-6 d-none d-xl-block">
+              <img src="sell.jpg"
+                alt="Sample photo" class="img-fluid"
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />            
+            </div>
+            <div class="col-xl-6">
+              <div class="card-body p-md-5 text-black">
+                <h3 class="mb-5 text-uppercase">USER REGISTRATION</h3>
+                <form action="user.php" method="POST"  enctype="multipart/form-data">
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="uname" class="form-control form-control-lg" name="uname"/>
+                      <label class="form-label" for="uname">User name</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="password" id="upwd" class="form-control form-control-lg" name="upwd" />
+                      <label class="form-label" for="upwd">Password</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="uemail" class="form-control form-control-lg" name="uemail"/>
+                  <label class="form-label" for="uemail">Email ID</label>
+                </div>              
+                <div class="form-outline mb-4">
+                 
+					<div class="form-outline mb-4">
+						<input type="text" id="phone" class="form-control form-control-lg" name="phone"/>
+						<label class="form-label" for="phone">Phone</label>
+					  </div>              
+					  <div class="form-outline mb-4">
+                <div class="form-group">
+					
+                  <button type="submit" class="btn btn-warning btn-lg ms-2">Submit</button>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
